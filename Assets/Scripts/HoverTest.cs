@@ -3,11 +3,10 @@ using UnityEngine.XR.Interaction.Toolkit.Interactors;
 using UnityEngine.XR.Interaction.Toolkit.UI;
 
 public class HoverTest : MonoBehaviour
-{
-    public XRSocketInteractor socketInteractor;
-    public GameObject interactableObject;
+{   public GameObject interactableObject;
     public bool rightItem;
     public GameObject test;
+    public string ObjectTag;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -38,7 +37,7 @@ public class HoverTest : MonoBehaviour
     }
     public void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Player"))
+        if(other.CompareTag(ObjectTag))
         {
             rightItem = true;
             // You can add additional logic here, such as highlighting the object or enabling a UI element

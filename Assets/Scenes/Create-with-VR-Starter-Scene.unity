@@ -701,10 +701,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78419294f17d3d44f9df3b62c2e74b63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HoverTest
-  socketInteractor: {fileID: 303051597}
   interactableObject: {fileID: 527612887}
   rightItem: 0
   test: {fileID: 1815055713}
+  ObjectTag: Player
 --- !u!1001 &339987327
 PrefabInstance:
   m_ObjectHideFlags: 0
