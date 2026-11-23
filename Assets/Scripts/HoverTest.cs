@@ -6,11 +6,11 @@ public class HoverTest : MonoBehaviour
 {   public GameObject interactableObject;
     public bool rightItem;
     public GameObject test;
-    public string ObjectTag;
+    public string objectTag;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        objectTag = interactableObject.tag;
     }
 
     // Update is called once per frame
@@ -37,7 +37,7 @@ public class HoverTest : MonoBehaviour
     }
     public void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag(ObjectTag))
+        if(other.CompareTag(objectTag))
         {
             rightItem = true;
             // You can add additional logic here, such as highlighting the object or enabling a UI element

@@ -1309,6 +1309,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: basic interactable
       objectReference: {fileID: 0}
+    - target: {fileID: 6671873399223417904, guid: b47bb3bd637cd5c4c93f13e4d313f62d, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
