@@ -6,6 +6,7 @@ public class Tileactivator : MonoBehaviour
     public Rigidbody RGTile;
     public TwoHandStatus TwoHandStatus;
     public GameObject Crowbar; 
+    public GameObject Wall2;
     public bool Puzzle2Answered;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -21,7 +22,7 @@ public class Tileactivator : MonoBehaviour
             RGTile.constraints = RigidbodyConstraints.None;
             GetComponent<XRGrabInteractable>().enabled = true;
             Puzzle2Answered = true;
-
+            Wall2.SetActive(false);
         }
     }
 
