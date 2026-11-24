@@ -4,9 +4,9 @@ using UnityEngine.XR.Interaction.Toolkit.UI;
 
 public class HoverTest : MonoBehaviour
 {   public GameObject interactableObject;
-    public bool rightItem;
-    public GameObject test;
+    public bool hasRightItem;
     public string objectTag;
+    public bool sendSignal;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,35 +16,34 @@ public class HoverTest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(this.GetComponent<Collider>().enabled == false && rightItem)
+        if(this.GetComponent<SphereCollider>().enabled == false && hasRightItem)
         {
-            Debug.Log("Hovering over interactable object: " + interactableObject.name);
-            test.SetActive(true);
+            sendSignal = true;
         }
         else
         {
-            test.SetActive(false);
+            sendSignal = false;
         }
     }   
     public void ColliderOff()
     {
-        this.GetComponent<Collider>().enabled = false;
+        this.GetComponent<SphereCollider>().enabled = false;
+        
     }
     public void ColliderOn()
     {
-        this.GetComponent<Collider>().enabled = true;
-        rightItem = false;
+        this.GetComponent<SphereCollider>().enabled = true;
+        hasRightItem = false;
     }
     public void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag(objectTag))
         {
-            rightItem = true;
-            // You can add additional logic here, such as highlighting the object or enabling a UI element
+            hasRightItem = true;
         }
         else
         {
-            rightItem = false;
+            hasRightItem = false;
         }
     }
 }
