@@ -1412,18 +1412,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Puzzle1Answered
   key1: {fileID: 968753865}
   key2: {fileID: 335797197}
-  key2Active: 0
+  key2Active: 1
   key3: {fileID: 311489726}
-  key3Active: 0
+  key3Active: 1
   key4: {fileID: 1729232848}
-  key4Active: 0
+  key4Active: 1
   key5: {fileID: 1285468327}
-  key5Active: 0
+  key5Active: 1
   key6: {fileID: 0}
   key6Active: 0
   puzzle1Correct: 0
   puzzle1Obstacle: {fileID: 23687488}
-  testing: 1
+  testing: 0
   puzzle1Answered: 0
 --- !u!4 &2017854463
 Transform:
