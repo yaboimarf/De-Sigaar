@@ -266,12 +266,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 76203113}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -4.78, y: -0.25, z: 0.44}
-  m_LocalScale: {x: 4.91121, y: 0.03733913, z: 4.91121}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -1.2, y: -0.402, z: 0.0041700006}
+  m_LocalScale: {x: 1.63707, y: 1.8556855, z: 0.98224205}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 156008662}
+  m_Father: {fileID: 1875702226215995246}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &80314082
 GameObject:
@@ -370,6 +370,7 @@ RectTransform:
   - {fileID: 1252683900}
   - {fileID: 651447603}
   - {fileID: 437685763}
+  - {fileID: 969165635}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -134.379, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -531,11 +532,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &156008662 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1769724769085892405, guid: 045f59c9e5ff5724ba1e131784d4bd31, type: 3}
-  m_PrefabInstance: {fileID: 1875702226215995245}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &364256869
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,12 +786,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 416647924}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.08, y: -0, z: -0.6596323}
-  m_LocalScale: {x: 4.91121, y: 0.03733913, z: 4.91121}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -1, y: -0.404, z: 0.006000006}
+  m_LocalScale: {x: 1.63707, y: 1.5272822, z: 0.98224205}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1076434404}
+  m_Father: {fileID: 2076631242}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!54 &416647926
 Rigidbody:
@@ -1307,6 +1303,145 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &969165634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 969165635}
+  - component: {fileID: 969165637}
+  - component: {fileID: 969165636}
+  m_Layer: 5
+  m_Name: Text (TMP) (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &969165635
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969165634}
+  m_LocalRotation: {x: -0, y: -0.3850667, z: -0, w: 0.9228888}
+  m_LocalPosition: {x: 0, y: 0, z: -0.85}
+  m_LocalScale: {x: 0.00020137652, y: 0.00020137652, z: 0.00020137652}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 80314086}
+  m_LocalEulerAnglesHint: {x: 0, y: -45.296, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.945, y: 0.06}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &969165636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969165634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "Known Bug: May not register that socket has the right item when trying
+    to putt in 2 items at the same time. \nFix: take out item and put it back in
+    again."
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 100
+  m_fontSizeBase: 100
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -460.92984, y: -20.45012, z: -519.5593, w: -277.58554}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &969165637
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969165634}
+  m_CullTransparentMesh: 1
 --- !u!1 &1041596495
 GameObject:
   m_ObjectHideFlags: 0
@@ -2092,7 +2227,8 @@ Transform:
   m_LocalPosition: {x: 0.13, y: 1.2108349, z: -0.68963236}
   m_LocalScale: {x: 0.1, y: 3, z: 5}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 416647925}
   m_Father: {fileID: 1076434404}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2076631243
@@ -2242,9 +2378,6 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 8485020240563973358, guid: 94fafa768bc72aa4da2c7b8200562c2d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 416647925}
-    - targetCorrespondingSourceObject: {fileID: 8485020240563973358, guid: 94fafa768bc72aa4da2c7b8200562c2d, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 2076631242}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94fafa768bc72aa4da2c7b8200562c2d, type: 3}
@@ -2383,11 +2516,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 1769724769085892405, guid: 045f59c9e5ff5724ba1e131784d4bd31, type: 3}
-      insertIndex: 0
+    - targetCorrespondingSourceObject: {fileID: 2990703479723537329, guid: 045f59c9e5ff5724ba1e131784d4bd31, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 76203119}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 045f59c9e5ff5724ba1e131784d4bd31, type: 3}
+--- !u!4 &1875702226215995246 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2990703479723537329, guid: 045f59c9e5ff5724ba1e131784d4bd31, type: 3}
+  m_PrefabInstance: {fileID: 1875702226215995245}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5123918607277054502
 PrefabInstance:
   m_ObjectHideFlags: 0
