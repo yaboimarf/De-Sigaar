@@ -25,10 +25,5 @@ public class Tileactivator : MonoBehaviour
             Wall2.SetActive(false);
         }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+    
 }
